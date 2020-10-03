@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://senare.github.io/senare/"
 languageCode = "en-us"
 title = "Infra Presentation"
 
@@ -14,5 +14,6 @@ isHTML = true
 
 [params.reveal_hugo]
 theme = "white"
+loop = true
 slide_number = true
 preview_links = true
