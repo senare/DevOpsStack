@@ -38,8 +38,6 @@ I like :
 
 ---
 
-{{% section %}}
-
 ## Git {#git}
 
 [go to slides]({{% relref "/git" %}})
@@ -142,9 +140,17 @@ I like :
 
 ---
 
-## ArgoCD {#argo}
+{{% section %}}
+
+## Argo CD {#argo}
 
 [go to slides]({{% relref "/argo" %}})
+
+---
+
+[![Argo CD](/senare/images/argo.png)](https://argoproj.github.io/argo-cd/)
+
+{{% /section %}}
 
 ---
 
@@ -184,11 +190,21 @@ I like :
 
 ---
 
+{{% section %}}
+
 ## FreeIPA {#freeipa}
 
 [go to slides]({{% relref "/freeipa" %}})
 
 ---
+
+[![FreeIPA](/senare/images/freeipa.png)](https://www.freeipa.org/)
+
+{{% /section %}}
+
+---
+
+{{% section %}}
 
 ## SSSD {#sssd}
 
@@ -196,8 +212,85 @@ I like :
 
 ---
 
+[[DOC]](https://sssd.io/)
+
+[[CODE]](https://github.com/SSSD/sssd)
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## Markdown {#markdown}
+
+[go to slides]({{% relref "/markdown" %}})
+
+---
+
+[![Markdown](/senare/images/markdown.svg)](https://www.markdownguide.org/)
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## Hugo {#hugo}
+
+[go to slides]({{% relref "/hugo" %}})
+
+---
+
+[![Hugo](/senare/images/hugo.svg)](https://gohugo.io/)
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## Github Pages {#github}
+
+[go to slides]({{% relref "/github" %}})
+
+---
+
+[![Github Pages](/senare/images/githubpages.svg)](https://pages.github.com/)
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## Reveal Hugo {#reveal}
+
+[go to slides]({{% relref "/reveal" %}})
+
+---
+
+[![Reveal Hugo](/senare/images/reveal-hugo.png)](https://themes.gohugo.io/reveal-hugo/)
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## DeckTape {#decktape}
+
+[go to slides]({{% relref "/decktape" %}})
+
+---
+
+[[DeckTape]](https://github.com/astefanutti/decktape)
+
+{{% /section %}}
+
+---
+
 # End
 
 [return]({{% relref "/#" %}})
 
-{{% /section %}}
