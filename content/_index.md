@@ -98,6 +98,20 @@ I like :
 
 ---
 
+{{% section %}}
+
+## Molecule {#molecule}
+
+[go to slides]({{% relref "/molecule" %}})
+
+---
+
+[[Molecule]](https://molecule.readthedocs.io/en/latest/)
+
+{{% /section %}}
+
+---
+
 ## Grafana {#grafana}
 
 [go to slides]({{% relref "/grafana" %}})
