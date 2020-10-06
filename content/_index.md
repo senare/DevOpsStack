@@ -51,9 +51,17 @@ I like :
 
 ---
 
+{{% section %}}
+
 ## GOGS {#gogs}
 
 [go to slides]({{% relref "/gogs" %}})
+
+---
+
+[![GOGS](/senare/images/gogs.png)](https://gogs.io/)
+
+{{% /section %}}
 
 ---
 
