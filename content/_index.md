@@ -38,6 +38,13 @@ I like :
 
 ---
 
+## Java {#java}
+
+[go to slides]({{% relref "/java" %}})
+
+
+---
+
 ## Git {#git}
 
 [go to slides]({{% relref "/git" %}})
@@ -301,6 +308,49 @@ I like :
 [[DeckTape]](https://github.com/astefanutti/decktape)
 
 {{% /section %}}
+
+---
+
+{{% section %}}
+
+## Let's Encrypt {#letsencrypt}
+
+[go to slides]({{% relref "/letsencrypt" %}})
+
+---
+
+[![Let's Encrypt](/senare/images/letsencrypt.svg)](https://letsencrypt.org/)
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## Cert Bot {#certbot}
+
+[go to slides]({{% relref "/certbot" %}})
+
+---
+
+[![Cert Bot](/senare/images/certbot.svg)](https://certbot.eff.org/)
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## NGINX {#nginx}
+
+[go to slides]({{% relref "/nginx" %}})
+
+---
+
+[![NGINX](/senare/images/NGINX.svg)](https://www.nginx.com/)
+
+{{% /section %}}
+
 
 ---
 
