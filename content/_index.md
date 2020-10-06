@@ -38,6 +38,107 @@ I like :
 
 ---
 
+{{% section %}}
+
+# Development workflow
+
+---
+    
+#### We keep the code in a 'source code repository'
+
+[[GIT]]({{% relref "/git" %}})
+
+[[GOGS]]({{% relref "/gogs" %}})
+
+---
+
+#### We create pipelines to build code
+
+[[Tekton]]({{% relref "/tekton" %}})
+
+---
+
+#### We publish binaries from the code
+
+[[Nexus]]({{% relref "/nexus" %}})
+
+[[Tekton]]({{% relref "/tekton" %}})
+
+---
+
+#### We create pipelines to test the code
+
+[[JUnit]]({{% relref "/junit" %}})
+
+[[Tekton]]({{% relref "/tekton" %}})
+
+
+---
+
+#### We create pipelines to lint the code
+
+[[Sonar Qube]]({{% relref "/sonarqube" %}})
+
+[[Tekton]]({{% relref "/tekton" %}})
+
+---
+
+#### We ensure that we have a known environment to execute the code
+
+[[Docker]]({{% relref "/docker" %}})
+
+---
+
+#### We deploy the code
+
+????
+
+---
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+# We can treat infrastructure as code
+
+---
+
+#### Life cycle Infra structure
+
+- We keep the code in a 'source code repository'
+- We create pipelines to build code
+- We create pipelines to test the code
+- We create pipelines to lint the code
+
+---
+
+#### Create infrastructure
+
+i.e storage, network and compute
+
+[[Terraform]]({{% relref "/terraform" %}})
+
+---
+
+#### Configure infrastructure
+
+i.e install packages and configure firewalls
+
+[[Ansible]]({{% relref "/ansible" %}})
+
+---
+
+#### Cluster available resources to reduce overhead
+
+[[Kubernetes]]({{% relref "/kubernetes" %}})
+
+
+{{% /section %}}
+
+---
+
 ## Java {#java}
 
 [go to slides]({{% relref "/java" %}})
@@ -62,6 +163,17 @@ I like :
 [![GOGS](/senare/images/gogs.png)](https://gogs.io/)
 
 {{% /section %}}
+
+---
+
+## JUnit {#junit}
+
+[go to slides]({{% relref "/junit" %}})
+---
+
+## NEXUS {#nexus}
+
+[go to slides]({{% relref "/nexus" %}})
 
 ---
 
