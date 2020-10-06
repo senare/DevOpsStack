@@ -8,6 +8,8 @@ outputs = ["Reveal"]
 
 ---
 
+{{< slide background-color="#000000" >}}
+
 [![GOGS](/senare/images/gogs.png)](https://gogs.io/)
 
 ---
@@ -28,18 +30,61 @@ Customize HTML templates, static files and many others.
 Rich database backend, including PostgreSQL, MySQL, SQLite3 and TiDB.
 Have localization over 30 languages.
 
-# Features of GOGS (that we care about)
+---
+
+# Features of GOGS 
+#### that we care about
 
 - Access repositories via SSH and HTTPS
 - Repository issues 
 - Pull requests
 
-# Features of GOGS (that we should consider)
+---
 
-- Milestones
+# Features of GOGS 
+#### that we should consider
+
+- Group issues into milestones
 - Authentication via LDAP
 - Deploy keys
 - Repository and organization webhooks.
+
+---
+
+# Issues
+
+- Text description (has a numeric ID)
+- We can add comments
+- We can attach files
+- Can be assigned to a user/person
+- Can have labels
+- Can be assigned to a milestone
+- Can be open/closed
+- Belongs to a repository
+
+---
+
+[![GOGS](/senare/images/gogs/issue.png)](https://repository.mjnet.info/Synker/SynkerClient/issues/3)
+
+---
+
+[![GOGS](/senare/images/gogs/labels.png)](https://repository.mjnet.info/Synker/SynkerClient/issues/3)
+
+Default labels, this can ofc be customized
+
+---
+
+# Milestones
+
+Yet another label ..
+
+Could be used to group issues into 'release' versions.
+
+---
+
+[![GOGS](/senare/images/gogs/all_issues.png)](https://repository.mjnet.info/org/Synker/issues)
+
+---
 
 # End
 
