@@ -80,11 +80,15 @@ Merge strategy
 
 ---
 
- Merge
+{{< slide background-image="/senare/images/git/merge.png" >}}
+
+## Merge
 
 ---
 
- Rebase
+{{< slide background-image="/senare/images/git/rebase.png" >}}
+
+## Rebase
 
 ---
 
