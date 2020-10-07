@@ -111,28 +111,44 @@ Tell your story ...
 ---
 {{% section %}}
 
-branch strategy
+ ## Branch strategy
 
 ---
 
-- git-flow
+[[Git flow]](https://nvie.com/posts/a-successful-git-branching-model/)
 
 ---
 
-- github-flow
-- gitlab-flow
+{{< slide background-image="/senare/images/git/git-flow.png" >}}
 
 ---
 
-- Library
+[[Github flow]](https://guides.github.com/introduction/flow/)
+
+[[Gitlab flow]](https://docs.gitlab.com/ee/topics/gitlab_flow.html)
 
 ---
 
-- Web Application / Server
+{{< slide background-image="/senare/images/git/simple-git-flow.png" >}}
 
 ---
 
- - Application / Client
+## Library
+
+- Incremental version
+- Internal only
+
+---
+
+## Web Application / Server
+
+Web apps are typically continuously delivered, not rolled back, and you don't have to support multiple versions of the software running in the wild.
+
+---
+
+## Application / Client
+
+If, you are building software that is explicitly versioned, or if you need to support multiple versions of your software in the wild.
 
 ---
 
