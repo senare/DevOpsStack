@@ -139,10 +139,29 @@ i.e install packages and configure firewalls
 
 ---
 
+{{% section %}}
+
+# Configuration Management
+
+---
+
+{{< slide background-image="/senare/images/cicd_flow.png" >}}
+
+---
+
+- If it isn't really needed by your production environment it isn’t really part of you production environment.
+
+- Separate CI from CD
+
+- KISS, and as few moving parts as possible (in production)
+
+{{% /section %}}
+
+---
+
 ## Java {#java}
 
 [go to slides]({{% relref "/java" %}})
-
 
 ---
 
@@ -169,6 +188,7 @@ i.e install packages and configure firewalls
 ## JUnit {#junit}
 
 [go to slides]({{% relref "/junit" %}})
+
 ---
 
 ## NEXUS {#nexus}
@@ -198,6 +218,34 @@ i.e install packages and configure firewalls
 ## Kubernetes {#kubernetes}
 
 [go to slides]({{% relref "/kubernetes" %}})
+
+---
+
+{{% section %}}
+
+## Rook {#rook}
+
+[go to slides]({{% relref "/rook" %}})
+
+---
+
+[![GOGS](/senare/images/rook.svg)](https://github.com/rook/rook)
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## Ceph {#ceph}
+
+[go to slides]({{% relref "/ceph" %}})
+
+---
+
+[![GOGS](/senare/images/ceph.png)](https://ceph.io/)
+
+{{% /section %}}
 
 ---
 
