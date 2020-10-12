@@ -519,6 +519,47 @@ i.e install packages and configure firewalls
 
 {{% /section %}}
 
+---
+
+{{% section %}}
+
+## SNORT {#snort}
+
+[go to slides]({{% relref "/snort" %}})
+
+---
+
+[![NGINX](/senare/images/snort.png)](https://www.snort.org/)
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## Clair {#clair}
+
+[go to slides]({{% relref "/clair" %}})
+
+---
+
+[![NGINX](/senare/images/clair.png)](https://github.com/quay/clair)
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## osquery {#osquery}
+
+[go to slides]({{% relref "/osquery" %}})
+
+---
+
+[![NGINX](/senare/images/osquery.png)](https://github.com/osquery/osquery)
+
+{{% /section %}}
 
 ---
 
