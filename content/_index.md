@@ -381,6 +381,26 @@ i.e install packages and configure firewalls
 
 {{% section %}}
 
+## CentOS {#centos}
+
+---
+
+[![CentOS](/senare/images/centos.png)](https://www.centos.org/)
+
+---
+
+[[DOCS]](https://wiki.centos.org/)
+
+[[DNF]](https://www.howtoforge.com/centos-8-package-management-with-dnf-on-the-command-line/)
+
+[[FIREWALLD]](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/security_guide/sec-viewing_current_status_and_settings_of_firewalld)
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
 ## FreeIPA {#freeipa}
 
 [go to slides]({{% relref "/freeipa" %}})
@@ -388,6 +408,49 @@ i.e install packages and configure firewalls
 ---
 
 [![FreeIPA](/senare/images/freeipa.png)](https://www.freeipa.org/)
+
+---
+
+[[DOCS]](https://freeipa.readthedocs.io/en/latest/index.html)
+
+[[CODE]](https://github.com/freeipa/freeipa)
+
+---
+
+## FreeIpa lab
+
+[[LINK]](https://posts.specterops.io/building-a-freeipa-lab-17f3f52cd8d9)
+
+---
+
+## Complex Application in Container
+
+[[LINK]](https://www.adelton.com/docs/docker/complex-application-in-container)
+
+---
+
+## CentOS 8 install
+
+[[LINK]](https://www.howtoforge.com/tutorial/install-and-configure-freeipa-server-on-centos-8/)
+
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## 389 Directory Service {#389}
+
+---
+
+[![389](/senare/images/389.png)](https://directory.fedoraproject.org/)
+
+---
+
+[[fossies]](https://fossies.org/linux/389-ds-base/docker/README.md)
+
+[[BLOG]](https://fy.blackhats.net.au/blog/html/2019/07/05/using_389ds_with_docker.html)
 
 {{% /section %}}
 
@@ -461,6 +524,10 @@ i.e install packages and configure firewalls
 
 [![Reveal Hugo](/senare/images/reveal-hugo.png)](https://themes.gohugo.io/reveal-hugo/)
 
+---
+
+[![Reveal JS](/senare/images/revealjs.svg)](https://revealjs.com/)
+
 {{% /section %}}
 
 ---
@@ -502,6 +569,10 @@ i.e install packages and configure firewalls
 ---
 
 [![Cert Bot](/senare/images/certbot.svg)](https://certbot.eff.org/)
+
+---
+
+[[FAQ]](https://github.com/ppKrauss/certbot-faq/blob/master/README.md)
 
 {{% /section %}}
 
@@ -558,6 +629,50 @@ i.e install packages and configure firewalls
 ---
 
 [![NGINX](/senare/images/osquery.png)](https://github.com/osquery/osquery)
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## idea {#idea}
+
+[go to slides]({{% relref "/idea" %}})
+
+---
+
+[[IDEA]](https://www.jetbrains.com/idea/)
+
+[[CLI]](https://emmanuelbernard.com/blog/2017/02/27/start-intellij-idea-command-line/)
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## SSH {#ssh}
+
+[go to slides]({{% relref "/ssh" %}})
+
+---
+
+OpenSSH
+
+
+---
+
+https://smallstep.com/blog/use-ssh-certificates/#:~:text=Most%20SSH%20deployments%20use%20public,each%20user%20%26%20host%20to%20authenticate.&text=Certificate%20authentication%20works%20the%20same,get%20to%20in%20a%20moment.
+
+---
+
+{{< slide background-image="/senare/images/ssh-certificate-authentication.png" >}}
+
+---
+
+{{< slide background-image="/senare/images/ssh-deploy-rgm.png" >}}
+
 
 {{% /section %}}
 
