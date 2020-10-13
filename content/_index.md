@@ -159,15 +159,35 @@ i.e install packages and configure firewalls
 
 ---
 
+{{% section %}}
+
 ## Java {#java}
 
 [go to slides]({{% relref "/java" %}})
 
 ---
 
+[[Apache Commons CLI]](http://commons.apache.org/proper/commons-cli/usage.html)
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
 ## Git {#git}
 
 [go to slides]({{% relref "/git" %}})
+
+---
+
+[[svn-to-git]](https://ovasquez.github.io/blog/2017/05/29/svn-to-git/)
+[[stackoverflow (how-do-i-migrate-an-svn-repository-with-history-to-a-new-git-repository)]](https://stackoverflow.com/questions/79165/how-do-i-migrate-an-svn-repository-with-history-to-a-new-git-repository/3972103#3972103)
+[[GIT migrate]](https://git-scm.com/book/en/v2/Git-and-Other-Systems-Migrating-to-Git)
+[[cleanly-migrate-your-subversion-repository-to-a-git-repository]](https://web.archive.org/web/20160314221641/https://jonmaddox.com/2008/03/05/cleanly-migrate-your-subversion-repository-to-a-git-repository/)
+
+
+{{% /section %}}
 
 ---
 
@@ -180,6 +200,10 @@ i.e install packages and configure firewalls
 ---
 
 [![GOGS](/senare/images/gogs.png)](https://gogs.io/)
+
+---
+
+[[nginx-gogs-jenkins]](https://techsparx.com/software-development/docker/damp/nginx-gogs-jenkins.html)
 
 {{% /section %}}
 
@@ -197,9 +221,19 @@ i.e install packages and configure firewalls
 
 ---
 
+{{% section %}}
+
 ## GO {#golang}
 
 [go to slides]({{% relref "/golang" %}})
+
+---
+
+[[GO PATH]](https://golang.org/doc/gopath_code.html)
+
+[[Upgrade golang deps]](https://golang.cafe/blog/upgrade-dependencies-golang.html)
+
+{{% /section %}}
 
 ---
 
@@ -214,10 +248,23 @@ i.e install packages and configure firewalls
 [go to slides]({{% relref "/bash" %}})
 
 ---
+{{% section %}}
 
 ## Kubernetes {#kubernetes}
 
 [go to slides]({{% relref "/kubernetes" %}})
+
+---
+
+[[Storage mini direct csi]](https://github.com/minio/direct-csi)
+[[Encryption of Kubernetes Persistent Local Volumes]](https://medium.com/@dfrnascimento/encryption-of-kubernetes-persistent-local-volumes-70da62e0ed68)
+---
+
+[[OPENEBS]](https://openebs.io/)
+[[DOCS OPENEBS]](https://docs.openebs.io/)
+[[How to use encryption with OpenEBS Local PV Hostpath volume]](https://github.com/openebs/openebs-docs/blob/day_2_ops/docs/uglocalpv_volume_encrypt.md)
+
+{{% /section %}}
 
 ---
 
@@ -245,13 +292,38 @@ i.e install packages and configure firewalls
 
 [![GOGS](/senare/images/ceph.png)](https://ceph.io/)
 
+---
+
+[[Ceph Persistent Storage for Kubernetes with Cephfs]](https://computingforgeeks.com/ceph-persistent-storage-for-kubernetes-with-cephfs/)
+
 {{% /section %}}
 
 ---
 
+{{% section %}}
+
 ## Terraform {#terraform}
 
 [go to slides]({{% relref "/terraform" %}})
+
+---
+
+[[SOURCE]](https://github.com/hashicorp/terraform)
+
+---
+
+[[Install Third Party Provider]](https://www.hashicorp.com/blog/automatic-installation-of-third-party-providers-with-terraform-0-13)
+
+---
+
+## Terraform & Ansible
+
+
+[[Terraform-Ansible]](https://github.com/ernesen/Terraform-Ansible/blob/master/artifacts/scripts/install_software.sh)
+
+[[Building Repeatable Infrastructure with Terraform and Ansible on AWS]](https://medium.com/faun/building-repeatable-infrastructure-with-terraform-and-ansible-on-aws-3f082cd398ad)
+
+{{% /section %}}
 
 ---
 
@@ -271,6 +343,11 @@ i.e install packages and configure firewalls
 
 [go to slides]({{% relref "/ansible" %}})
 
+[[FreeIpa dynamic inventory for ansible]](https://github.com/freeipa/freeipa-dyndir)
+
+[[Linode getting started with ansible]](https://www.linode.com/docs/applications/configuration-management/ansible/getting-started-with-ansible/)
+
+[[Ansible as IT Automation Glue]](https://www.ansible.com/blog/ansible-it-automation-glue)
 ---
 
 {{% section %}}
@@ -378,6 +455,21 @@ i.e install packages and configure firewalls
 [go to slides]({{% relref "/bastion" %}})
 
 ---
+
+{{% section %}}
+
+## Ubuntu {#ubuntu}
+
+---
+
+[[UFW ubuntu 20.04]](https://www.ubuntu18.com/how-to-enable-ubuntu-firewall-in-ubuntu-20-04/)
+
+[[UFW]](https://linuxconfig.org/how-to-install-ufw-and-use-it-to-set-up-a-basic-firewall)
+
+{{% /section %}}
+
+---
+
 
 {{% section %}}
 
@@ -509,6 +601,10 @@ i.e install packages and configure firewalls
 ---
 
 [![Github Pages](/senare/images/githubpages.svg)](https://pages.github.com/)
+
+---
+
+[[Github Actions Hugo]](https://github.com/peaceiris/actions-hugo)
 
 {{% /section %}}
 
@@ -660,11 +756,23 @@ i.e install packages and configure firewalls
 
 OpenSSH
 
+---
+
+[[Tunneling SSH]](https://www.cyberciti.biz/faq/ssh-port-forwarding-tunneling/)
 
 ---
 
-https://smallstep.com/blog/use-ssh-certificates/#:~:text=Most%20SSH%20deployments%20use%20public,each%20user%20%26%20host%20to%20authenticate.&text=Certificate%20authentication%20works%20the%20same,get%20to%20in%20a%20moment.
+[[Mozilla guidlines]](https://infosec.mozilla.org/guidelines/openssh)
 
+---
+
+[[Smallstep use cert for ssh]](https://smallstep.com/blog/use-ssh-certificates/)
+
+[[Smallstep DIY bastion]](https://smallstep.com/blog/diy-ssh-bastion-host/)
+
+[[Linux as a bastion]](https://www.cyberciti.biz/faq/linux-bastion-host/)
+
+[[Lunix Audit Blogg]](https://linux-audit.com/linux-security-guide-extended-version/)
 ---
 
 {{< slide background-image="/senare/images/ssh-certificate-authentication.png" >}}
@@ -672,6 +780,63 @@ https://smallstep.com/blog/use-ssh-certificates/#:~:text=Most%20SSH%20deployment
 ---
 
 {{< slide background-image="/senare/images/ssh-deploy-rgm.png" >}}
+
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## Linux Server Hardening
+
+---
+
+[[Linux Kernel Security]](https://www.cyberciti.biz/tips/selinux-vs-apparmor-vs-grsecurity.html)
+
+[[40 tips]](https://www.cyberciti.biz/tips/linux-security.html)
+
+---
+
+## AIDE
+
+[[SOURCE]](https://github.com/aide/aide)
+
+[[Ubuntu Install]](https://www.cyberciti.biz/faq/debian-ubuntu-linux-software-integrity-checking-with-aide/)
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## Glesys
+
+---
+
+[[Glesys GO API]](https://github.com/glesys/API)
+
+[[Glesys golang client]](https://github.com/glesys/glesys-go)
+
+[[Glesys TERRAFORM provider]](https://github.com/norrland/terraform-provider-glesys)
+
+[[One Click Installers]](https://github.com/glesys/one-click-installers)
+
+[[GleSYS Kubernetes cloud controller]](https://hub.docker.com/r/glesys/glesys-cloud-controller-manager)
+
+[[Cloud Config KVM]](https://github.com/glesys/API/wiki/Using-cloud-config-to-configure-you-KVM-server)
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## Cloud Config
+
+---
+
+[[KVM: Testing cloud-init locally using KVM for an Ubuntu cloud image]](https://fabianlee.org/2020/02/23/kvm-testing-cloud-init-locally-using-kvm-for-an-ubuntu-cloud-image/)
 
 
 {{% /section %}}
