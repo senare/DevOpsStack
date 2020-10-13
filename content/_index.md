@@ -167,6 +167,10 @@ i.e install packages and configure firewalls
 
 ---
 
+[[JPS]](https://docs.oracle.com/javase/7/docs/technotes/tools/share/jps.html)
+
+---
+
 [[Apache Commons CLI]](http://commons.apache.org/proper/commons-cli/usage.html)
 
 {{% /section %}}
@@ -204,6 +208,7 @@ i.e install packages and configure firewalls
 ---
 
 [[nginx-gogs-jenkins]](https://techsparx.com/software-development/docker/damp/nginx-gogs-jenkins.html)
+[[How to backup, restore and migrate]](https://discuss.gogs.io/t/how-to-backup-restore-and-migrate/991)
 
 {{% /section %}}
 
@@ -215,9 +220,27 @@ i.e install packages and configure firewalls
 
 ---
 
+{{% section %}}
+
 ## NEXUS {#nexus}
 
 [go to slides]({{% relref "/nexus" %}})
+
+---
+
+[[Nexus Helm Chart]](https://hub.helm.sh/charts/sonatype/nexus-repository-manager)
+
+[[Dockerhub Sonatype Nexus IQ Server]](https://hub.docker.com/r/sonatype/nexus-iq-server/)
+[[Dockerhub nexus3]](https://hub.docker.com/r/sonatype/nexus3)
+
+[[Cookbook for Nexus Repository Manager]](https://github.com/sonatype/chef-nexus-repository-manager)
+[[Getting Started with IQ Server Deployment]](https://help.sonatype.com/iqserver/getting-started)
+[[Running The Nexus Platform Behind Nginx Using Docker]](https://blog.sonatype.com/running-the-nexus-platform-behind-nginx-using-docker)
+
+[[Nexus Storage guide]](https://help.sonatype.com/repomanager3/repository-management/storage-guide)
+[[Nexus Blob Store]](https://help.sonatype.com/repomanager3/high-availability/configuring-blob-stores)
+
+{{% /section %}}
 
 ---
 
@@ -257,12 +280,28 @@ i.e install packages and configure firewalls
 ---
 
 [[Storage mini direct csi]](https://github.com/minio/direct-csi)
+
 [[Encryption of Kubernetes Persistent Local Volumes]](https://medium.com/@dfrnascimento/encryption-of-kubernetes-persistent-local-volumes-70da62e0ed68)
+
 ---
 
 [[OPENEBS]](https://openebs.io/)
+
 [[DOCS OPENEBS]](https://docs.openebs.io/)
+
 [[How to use encryption with OpenEBS Local PV Hostpath volume]](https://github.com/openebs/openebs-docs/blob/day_2_ops/docs/uglocalpv_volume_encrypt.md)
+
+---
+
+## NFSv4.2
+
+[[NFSv4.2]](https://storagetutorial.com/nas/nfsv4-2/)
+
+---
+
+[[Kubernetes NFS: Quick Tutorials]](https://cloud.netapp.com/blog/kubernetes-nfs-two-quick-tutorials-cvo-blg)
+[[Provision Kubernetes NFS clients on a Raspberry Pi homelab]](https://opensource.com/article/20/6/kubernetes-nfs-client-provisioning)
+[[Kubernetes NFS-Client Provisioner]](https://github.com/kubernetes-retired/external-storage/tree/master/nfs-client)
 
 {{% /section %}}
 
@@ -333,9 +372,21 @@ i.e install packages and configure firewalls
 
 ---
 
+{{% section %}}
+
 ## Etcd {#etcd}
 
 [go to slides]({{% relref "/etcd" %}})
+
+---
+
+[[Terraform store etcd3]](https://www.terraform.io/docs/backends/types/etcdv3.html)
+[[etcd Security model]](https://etcd.io/docs/v3.2.17/op-guide/security/)
+[[etcd authentication]](https://etcd.io/docs/v2/authentication/)
+
+[[Dockerhub bitnami etcd]](https://hub.docker.com/r/bitnami/etcd/)
+
+{{% /section %}}
 
 ---
 
@@ -348,6 +399,13 @@ i.e install packages and configure firewalls
 [[Linode getting started with ansible]](https://www.linode.com/docs/applications/configuration-management/ansible/getting-started-with-ansible/)
 
 [[Ansible as IT Automation Glue]](https://www.ansible.com/blog/ansible-it-automation-glue)
+
+[[Ansible Lab environment using Docker]](https://morioh.com/p/fa458766759f)
+
+[[Howto Writing an Ansible module for a REST API]](https://liquidat.wordpress.com/2016/06/27/howto-writing-an-ansible-module-for-a-rest-api/)
+
+[[How to Install Ansible on Ubuntu 20.04 LTS]](https://linuxhint.com/install_ansible_ubuntu/)
+
 ---
 
 {{% section %}}
@@ -394,9 +452,21 @@ i.e install packages and configure firewalls
 
 ---
 
+{{% section %}}
+
 ## MicroK8s {#microk8s}
 
 [go to slides]({{% relref "/microk8s" %}})
+
+---
+
+[[microk8s]](https://microk8s.io/)
+
+---
+
+[[How to setup MicroK8s with RBAC and Storage]](https://igy.cx/posts/setup-microk8s-rbac-storage/)
+
+{{% /section %}}
 
 ---
 
@@ -426,9 +496,17 @@ i.e install packages and configure firewalls
 
 ---
 
+{{% section %}}
+
 ## Kubevirt {#kubevirt}
 
 [go to slides]({{% relref "/kubevirt" %}})
+
+---
+
+[[Yes, you can run VMs on Kubernetes with KubeVirt]](https://opensource.com/article/20/9/vms-kubernetes-kubevirt)
+
+{{% /section %}}
 
 ---
 
@@ -450,9 +528,17 @@ i.e install packages and configure firewalls
 
 ---
 
+{{% section %}}
+
 ## Bastion Jump Host {#bastion}
 
 [go to slides]({{% relref "/bastion" %}})
+
+---
+
+[[ansible jumphost]](https://blog.keyboardinterrupt.com/ansible-jumphost/)
+
+{{% /section %}}
 
 ---
 
@@ -462,9 +548,11 @@ i.e install packages and configure firewalls
 
 ---
 
-[[UFW ubuntu 20.04]](https://www.ubuntu18.com/how-to-enable-ubuntu-firewall-in-ubuntu-20-04/)
+[[UFW Ubuntu 20.04]](https://www.ubuntu18.com/how-to-enable-ubuntu-firewall-in-ubuntu-20-04/)
 
 [[UFW]](https://linuxconfig.org/how-to-install-ufw-and-use-it-to-set-up-a-basic-firewall)
+
+[[Add Users Ubuntu 20.04]](https://linuxconfig.org/how-to-add-user-on-ubuntu-20-04-focal-fossa-linux)
 
 {{% /section %}}
 
@@ -684,6 +772,20 @@ i.e install packages and configure firewalls
 
 [![NGINX](/senare/images/NGINX.svg)](https://www.nginx.com/)
 
+---
+
+[[NGINX Reverse Proxy]](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/)
+[[Nginx 1.19 supports environment variables and templates in Docker]](https://marcofranssen.nl/nginx-1-19-supports-environment-variables-and-templates-in-docker/)
+
+[[Nginx and Letsencrypt with certbot in docker alpine]](https://geko.cloud/nginx-and-ssl-with-certbot-in-docker-alpine/)
+
+[[Nginx and Let’s Encrypt with Docker in Less Than 5 Minutes]](https://medium.com/@pentacent/nginx-and-lets-encrypt-with-docker-in-less-than-5-minutes-b4b8a60d3a71)
+
+---
+
+[[Dockerhub nginx]](https://hub.docker.com/_/nginx)
+[[Dockerhub bitnami nginx]](https://hub.docker.com/r/bitnami/nginx)
+
 {{% /section %}}
 
 ---
@@ -758,7 +860,22 @@ OpenSSH
 
 ---
 
-[[Tunneling SSH]](https://www.cyberciti.biz/faq/ssh-port-forwarding-tunneling/)
+## IPv6
+
+[[Holding IPv6 Neighbor Discovery to a Higher Standard of Security]](https://blogs.infoblox.com/ipv6-coe/holding-ipv6-neighbor-discovery-to-a-higher-standard-of-security/)
+[[IPv6 SSH]](https://techhub.hpe.com/eginfolib/networking/docs/switches/WB/15-18/5998-8170_wb_2920_ipv6_config_guide/content/v33585271.html)
+
+---
+
+## Break the glass ...
+
+[[Smallstep cert based]](https://smallstep.com/blog/ssh-emergency-access/)
+
+---
+
+[[Tunneling SSH]](https://www.ssh.com/ssh/tunneling/example)
+
+[[Cyberciti Tunneling SSH]](https://www.cyberciti.biz/faq/ssh-port-forwarding-tunneling/)
 
 ---
 
@@ -796,6 +913,8 @@ OpenSSH
 
 [[40 tips]](https://www.cyberciti.biz/tips/linux-security.html)
 
+[[Digitalocean guide]](https://www.digitalocean.com/community/tutorials/recommended-security-measures-to-protect-your-servers)
+
 ---
 
 ## AIDE
@@ -803,6 +922,20 @@ OpenSSH
 [[SOURCE]](https://github.com/aide/aide)
 
 [[Ubuntu Install]](https://www.cyberciti.biz/faq/debian-ubuntu-linux-software-integrity-checking-with-aide/)
+
+---
+
+## HIDS
+
+[[WIKI HIDS]](https://en.wikipedia.org/wiki/Host-based_intrusion_detection_system_comparison)
+
+---
+
+[[fail2ban]](http://www.fail2ban.org/wiki/index.php/Main_Page)
+
+---
+
+[[PortKnocking]](https://help.ubuntu.com/community/PortKnocking)
 
 {{% /section %}}
 
@@ -826,6 +959,10 @@ OpenSSH
 
 [[Cloud Config KVM]](https://github.com/glesys/API/wiki/Using-cloud-config-to-configure-you-KVM-server)
 
+[[Glesys fail2ban]](https://glesys.se/kb/artikel/skydda-ssh-med-fail2ban-i-linux)
+
+[[GleSYS API/Ansible Demo]](https://github.com/glesys/ansible-wp-auto-deploy)
+
 {{% /section %}}
 
 ---
@@ -838,6 +975,61 @@ OpenSSH
 
 [[KVM: Testing cloud-init locally using KVM for an Ubuntu cloud image]](https://fabianlee.org/2020/02/23/kvm-testing-cloud-init-locally-using-kvm-for-an-ubuntu-cloud-image/)
 
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## DUF
+
+---
+
+[[DUF]](https://ostechnix.com/how-to-view-disk-usage-with-duf-on-linux-and-unix/)
+[[CODE]](https://github.com/muesli/duf)
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## OS X KVM
+
+---
+
+[[CODE OS X KVM]](https://github.com/kholia/OSX-KVM)
+[[CODE OS X DOCKER]](https://github.com/Cleafy/sxkdvm)
+[[OS X Vagrant]](https://app.vagrantup.com/AndrewDryga/boxes/vagrant-box-osx)
+[[macos Vagrant]](https://app.vagrantup.com/ramsey/boxes/macos-catalina)
+
+---
+
+[[Using Vagrant to set up a VM with KVM/qemu without VirtualBox]](https://stackoverflow.com/questions/42155213/using-vagrant-to-set-up-a-vm-with-kvm-qemu-without-virtualbox)
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## Backup & LVM
+
+---
+
+[[bacula]](https://www.bacula.org/documentation/documentation/)
+[[Introduction to Bacula, How to install, configure, backup and restore]](https://www.labeightyfour.com/2019/04/08/introduction-to-bacula-how-to-install-configure-backup-and-restore/)
+[[Back Up (And Restore) LVM Partitions With LVM Snapshots]](https://www.howtoforge.com/linux_lvm_snapshots)
+[[Taking a Backup Using Snapshots]](https://tldp.org/HOWTO/LVM-HOWTO/snapshots_backup.html)
+[[LVM snapshots as a backup strategy]](https://serverfault.com/questions/23965/lvm-snapshots-as-a-backup-strategy)
+[[Backup and Restore Logical Volume using LVM Snapshot]](http://www.tuxfixer.com/backup-and-restore-logical-volume-using-lvm-snapshot/)
+
+[[Managing LVM Snapshots in LVM2]](https://www.theurbanpenguin.com/maning-lvm-snapshots/)
+
+---
+
+[[docker lvm plugin]](https://github.com/containers/docker-lvm-plugin)
 
 {{% /section %}}
 
