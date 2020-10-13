@@ -917,7 +917,8 @@ OpenSSH
 
 [[Linux as a bastion]](https://www.cyberciti.biz/faq/linux-bastion-host/)
 
-[[Lunix Audit Blogg]](https://linux-audit.com/linux-security-guide-extended-version/)
+[[Linux Audit Blogg]](https://linux-audit.com/linux-security-guide-extended-version/)
+
 ---
 
 {{< slide background-image="/senare/images/ssh-certificate-authentication.png" >}}
@@ -1081,4 +1082,3 @@ OpenSSH
 # End
 
 [return]({{% relref "/#" %}})
-
