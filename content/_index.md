@@ -169,6 +169,10 @@ i.e install packages and configure firewalls
 
 [[JPS]](https://docs.oracle.com/javase/7/docs/technotes/tools/share/jps.html)
 
+[[Base64]](https://docs.oracle.com/javase/8/docs/api/java/util/Base64.html)
+[[Understanding Java 9 Modules]](https://www.oracle.com/corporate/features/understanding-java-9-modules.html)
+[[A Guide to Java 9 Modularity]](https://www.baeldung.com/java-9-modularity)
+
 ---
 
 [[Apache Commons CLI]](http://commons.apache.org/proper/commons-cli/usage.html)
@@ -182,6 +186,10 @@ i.e install packages and configure firewalls
 ## Git {#git}
 
 [go to slides]({{% relref "/git" %}})
+
+---
+
+[[GIT svn]](https://git-scm.com/docs/git-svn)
 
 ---
 
@@ -207,8 +215,14 @@ i.e install packages and configure firewalls
 
 ---
 
+[[CODE]](https://github.com/gogs/gogs)
+[[DOCS]](https://gogs.io/docs)
+
+---
+
 [[nginx-gogs-jenkins]](https://techsparx.com/software-development/docker/damp/nginx-gogs-jenkins.html)
 [[How to backup, restore and migrate]](https://discuss.gogs.io/t/how-to-backup-restore-and-migrate/991)
+[[Setting up Gogs on Docker]](https://vidhyachari.wordpress.com/2017/09/01/setting-up-gogs-on-docker/)
 
 {{% /section %}}
 
@@ -271,6 +285,19 @@ i.e install packages and configure firewalls
 [go to slides]({{% relref "/bash" %}})
 
 ---
+
+{{% section %}}
+
+## Docker {#docker}
+
+---
+
+[[Encrypted container images for container image security at rest]](https://developer.ibm.com/articles/encrypted-container-images-for-container-image-security-at-rest/)
+
+{{% /section %}}
+
+---
+
 {{% section %}}
 
 ## Kubernetes {#kubernetes}
@@ -315,7 +342,7 @@ i.e install packages and configure firewalls
 
 ---
 
-[![GOGS](/senare/images/rook.svg)](https://github.com/rook/rook)
+[![ROOK](/senare/images/rook.svg)](https://github.com/rook/rook)
 
 {{% /section %}}
 
@@ -329,7 +356,7 @@ i.e install packages and configure firewalls
 
 ---
 
-[![GOGS](/senare/images/ceph.png)](https://ceph.io/)
+[![CEPH](/senare/images/ceph.png)](https://ceph.io/)
 
 ---
 
@@ -606,6 +633,7 @@ i.e install packages and configure firewalls
 ## Complex Application in Container
 
 [[LINK]](https://www.adelton.com/docs/docker/complex-application-in-container)
+[[Build an OpenLDAP Docker Image That’s Populated With Users]](https://medium.com/better-programming/ldap-docker-image-with-populated-users-3a5b4d090aa4)
 
 ---
 
@@ -662,7 +690,7 @@ i.e install packages and configure firewalls
 
 [![Markdown](/senare/images/markdown.svg)](https://www.markdownguide.org/)
 
-{{% /section %}}
+{{% /section %}}|
 
 ---
 
@@ -1028,8 +1056,23 @@ OpenSSH
 [[Managing LVM Snapshots in LVM2]](https://www.theurbanpenguin.com/maning-lvm-snapshots/)
 
 ---
+[[Docker Volumes]](https://docs.docker.com/storage/volumes/)
+[[Docker StorageDriver]](https://docs.docker.com/storage/storagedriver/device-mapper-driver/)
 
 [[docker lvm plugin]](https://github.com/containers/docker-lvm-plugin)
+[[Working with Docker LVM Plugin]](https://www.projectatomic.io/blog/2016/05/docker-lvm-plugin/)
+
+
+---
+
+[[Docker Data Volume Snapshots and Encryption with LVM and LUKS]](https://medium.com/@kalahari/docker-data-volume-snapshots-and-encryption-with-lvm-and-luks-ce80e0555225)
+
+[[LUKS and loop device]](https://askubuntu.com/questions/599044/luks-and-loop-device)
+[[Ubuntu ManualFullSystemEncryption/BasicsLVM]](https://help.ubuntu.com/community/ManualFullSystemEncryption/BasicsLVM)
+[[LVM on loopback devices]](https://ops.tips/blog/lvm-on-loopback-devices/)
+
+[[Encrypting Docker containers on a Virtual Server]](https://launchbylunch.com/posts/2014/Jan/13/encrypting-docker-on-digitalocean/)
+
 
 {{% /section %}}
 
