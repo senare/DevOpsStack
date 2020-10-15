@@ -1079,6 +1079,42 @@ OpenSSH
 
 ---
 
+{{% section %}}
+
+## Zero Trust
+
+---
+
+{{< youtube -Why_ZjJUhg >}}
+
+---
+
+{{< youtube tFrbt9s4Fns >}}
+
+---
+
+{{< youtube vWdk3zmeS1M >}}
+
+---
+
+{{< youtube 6q6c0Ld0qx0 >}}
+
+---
+
+{{< youtube EF_0dr8WkX8 >}}
+
+---
+
+{{< youtube X6tUptvmi1w >}}
+
+---
+
+{{< youtube UJubIpMm62U >}}
+
+{{% /section %}}
+
+---
+
 # End
 
 [return]({{% relref "/#" %}})
