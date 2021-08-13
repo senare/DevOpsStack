@@ -149,6 +149,82 @@ When we look at the hype K8s have already reached “plateau of productivity’�
 
 ---
 
+{{% section %}}
+
+## MicroK8s {#microk8s}
+
+[go to slides]({{% relref "/microk8s" %}})
+
+---
+
+[[microk8s]](https://microk8s.io/)
+
+---
+
+[[How to setup MicroK8s with RBAC and Storage]](https://igy.cx/posts/setup-microk8s-rbac-storage/)
+
+{{% /section %}}
+
+
+---
+
+{{% section %}}
+
+## MiniKube {#minikube}
+
+[go to slides]({{% relref "/minikube" %}})
+
+---
+
+[[minikube]](https://minikube.sigs.k8s.io/)
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## Kind {#kind}
+
+[go to slides]({{% relref "/kind" %}})
+
+---
+
+[[kind]](https://kind.sigs.k8s.io/)
+
+{{% /section %}}
+
+
+---
+
+{{% section %}}
+
+## K3D {#k3d}
+
+[go to slides]({{% relref "/k3d" %}})
+
+---
+
+[[k3d]](https://k3d.io/)
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## K3S {#k3s}
+
+[go to slides]({{% relref "/k3s" %}})
+
+---
+
+[[k3s]](https://k3s.io/)
+
+{{% /section %}}
+
+---
+
 # End
 
 [return]({{% relref "/#" %}})

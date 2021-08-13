@@ -477,23 +477,6 @@ i.e install packages and configure firewalls
 
 [go to slides]({{% relref "/sonarqube" %}})
 
----
-
-{{% section %}}
-
-## MicroK8s {#microk8s}
-
-[go to slides]({{% relref "/microk8s" %}})
-
----
-
-[[microk8s]](https://microk8s.io/)
-
----
-
-[[How to setup MicroK8s with RBAC and Storage]](https://igy.cx/posts/setup-microk8s-rbac-storage/)
-
-{{% /section %}}
 
 ---
 
@@ -888,6 +871,13 @@ OpenSSH
 
 ---
 
+THIS :)
+
+https://gravitational.com/blog/how-to-ssh-properly/
+
+
+---
+
 ## IPv6
 
 [[Holding IPv6 Neighbor Discovery to a Higher Standard of Security]](https://blogs.infoblox.com/ipv6-coe/holding-ipv6-neighbor-discovery-to-a-higher-standard-of-security/)
@@ -1073,6 +1063,23 @@ OpenSSH
 [[LVM on loopback devices]](https://ops.tips/blog/lvm-on-loopback-devices/)
 
 [[Encrypting Docker containers on a Virtual Server]](https://launchbylunch.com/posts/2014/Jan/13/encrypting-docker-on-digitalocean/)
+
+
+---
+
+
+https://youtu.be/y5wMbA_T0tA
+https://youtu.be/U8Dsi5V-XG0
+
+## Harbor (docker repo)
+
+https://goharbor.io/
+
+https://github.com/goharbor/harbor
+
+# INTRO to harbor
+https://youtu.be/Rs3zByxI8aY
+
 
 
 {{% /section %}}
