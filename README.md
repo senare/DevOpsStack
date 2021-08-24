@@ -175,3 +175,25 @@ http://www.hp.com/hpinfo/newsroom/press_kits/2010/NewHPNetworkingSolutions/FlexF
 https://www.home-assistant.io/getting-started/
 
 https://github.com/home-assistant/core/tree/dev/homeassistant/components/netatmo
+
+
+## K8S Pitfalls 
+https://blog.pipetail.io/posts/2020-05-04-most-common-mistakes-k8s/
+
+
+Maybe use something like this to build SynkerAdmin (?!)
+https://github.com/spekt8/spekt8 (java script)
+
+https://github.com/jeremykross/konstellate (cloujure)
+
+
+
+## KAB
+
+K8S API doc's https://github.com/tengqm/kab
+
+K8S security 
+https://github.com/armosec/kubescape
+
+Rook guide 
+https://elastisys.com/elastisys-engineering-how-to-set-up-rook-with-ceph-on-kubernetes/
